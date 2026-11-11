@@ -22,6 +22,20 @@ This repository exists to share our corrected and extended version of an openly 
 
 The matching and tagging are partly automatic and are still being checked. Corrections are welcome as issues on this repository.
 
+## How corrections are checked
+
+Swete's printed page is the authority. This is Swete's text, not a new edition: we restore what Swete printed where the transcription lost or garbled it, and we never choose a reading Swete did not print.
+
+- **Nothing is filled from other editions.** Words the transcription lost stay missing rather than being supplied from Rahlfs or another text.
+- **Only certain changes.** A word is respelled only when the transcribed form is not a Greek word and exactly one correction fits. A Strong's number is changed only when the form cannot come from the tagged word and the right word is certain. Where no lexicon entry exists for the right word, a wrong number is removed and the word is left untagged rather than guessed.
+- **Questionable readings stay as transcribed**, even where the context suggests another word.
+- **Each change is marked by how it was checked:** against the scanned page of Swete's printed edition (CCEL page images), or by at least two independent reviewers reading the Greek against the English and Hebrew. Verse moves are reviewed verse by verse and then re-checked as a whole.
+
+## Changes
+
+- **Nov 11, 2026:** Job 40 to 41 renumbered to the English verses (Swete follows the Hebrew chapter break), and short verses that had been joined to a later verse put back throughout Job. Esther 10:1 to 3 given their own Greek in place of lines from Addition F. Proverbs 15:27 to 16:9, 19 and 20 realigned, and 23 Proverbs verses removed from distant verses they had been joined to. Three readings confirmed against Swete's printed page (Daniel 3:25 Ὅδε; Proverbs 24:30 ἀνὴρ ἄφρων; Proverbs 31:27 σοφοῖς, Swete's own text). Every word in the rebuilt verses checked: 104 certain spelling, tag and grammar-tag fixes, including φρενῶν (8 verses) and πενήτων (14 verses) re-filed under the right dictionary word.
+- **Nov 9, 2026:** Exodus 35 to 40, 1 Kings and Jeremiah 25 to 52 put in English and Hebrew verse order, with hand fixes in Joshua, 1 Samuel, Nehemiah, Isaiah, Deuteronomy and Genesis.
+
 ## Format
 
 One file per book in `data/`, named with three-letter codes (`Gen`, `Exo`, ... `Mal`). English chapter and verse numbering. Ecclesiastes is English only for now, because this edition's Ecclesiastes has not been tagged yet.
@@ -58,3 +72,5 @@ Each word:
 [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). You may use, change and share this data, commercially or not, as long as you credit it and release your changes under the same license.
 
 Suggested credit: *Swete Septuagint word data from the Hidden Manna project (The Fit Chemist LLC, CC BY-SA 4.0), based on the First1KGreek transcription of Swete (CC BY-SA 4.0).*
+
+Suggested citation: H. B. Swete, *The Old Testament in Greek according to the Septuagint* (Cambridge, 1887 to 1894); digital text corrected, aligned to English and Hebrew versification and Strong's-tagged by Tyler Rauwolf, Hidden Manna (2026), https://github.com/drtylerrauwolf/hidden-manna-swete-lxx.
